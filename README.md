@@ -18,7 +18,7 @@ git submodule update --init --recursive
 If it doesn't work, we can also download it manually.
 ```
  git submodule add https://github.com/wwjbrugger/SyntaxTree.git SyntaxTree
- git submodule add git@github.com:wwjbrugger/her-neural-mcts.git HerNeuralMCTS
+ git submodule add https://github.com/wwjbrugger/her-neural-mcts.git HerNeuralMCTS
 ```
 # Virtual Enviroment 
 
