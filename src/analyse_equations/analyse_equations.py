@@ -51,14 +51,14 @@ def run():
     args.unit_dimension = 5
     measurement_error_dic = {
         'drop_length': 4.2e-5,  # m
-        'adv': np.rad2deg(3),
-        'rec': np.rad2deg(3),
-        'mid': np.rad2deg(3),
+        'adv': np.deg2rad(3),
+        'rec': np.deg2rad(3),
+        'mid': np.deg2rad(3),
         'avg_vel': 5e-3,
         'width': 5e-5,
         'y_center': 5e-5,
-        'static_adv': np.rad2deg(3),
-        'static_rec': np.rad2deg(3)
+        'static_adv': np.deg2rad(3),
+        'static_rec': np.deg2rad(3)
     }
     logging.basicConfig(level=logging.INFO)
 
